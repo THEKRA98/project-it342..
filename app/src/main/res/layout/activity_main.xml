@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCC6C6"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="306dp"
+        android:layout_height="85dp"
+        android:background="#A6A3A3"
+        android:backgroundTint="#A6A3A3"
+        android:text="الرئيسية "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="306dp"
+        android:layout_height="85dp"
+        android:background="#A6A3A3"
+        android:backgroundTint="#A6A3A3"
+        android:text="مسارات التدريب "
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="306dp"
+        android:layout_height="85dp"
+        android:background="#A6A3A3"
+        android:backgroundTint="#A6A3A3"
+        android:text="الحساب الشخصي"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="306dp"
+        android:layout_height="85dp"
+        android:background="#A6A3A3"
+        android:backgroundTint="#A6A3A3"
+        android:text="مسارات الدورات"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="306dp"
+        android:layout_height="85dp"
+        android:background="#A6A3A3"
+        android:backgroundTint="#A6A3A3"
+        android:text="حول التطبيق"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="72dp"
+        android:layout_height="71dp"
+        android:background="#CDC9C9"
+        android:layoutDirection="ltr"
+        android:tint="#000000"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="72dp"
+        android:layout_height="89dp"
+        app:srcCompat="@drawable/twaq"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:background="#CCC6C6"
+        android:tint="#000000"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="331dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
